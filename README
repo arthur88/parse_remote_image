@@ -1,0 +1,5 @@
+This is php script that can parser remote div class with image inside on it. 
+This script check if is loaed in Wordpress website, if it`s then get image by special wordpress function, if not then trying with others functions.
+script trying to get with file_get_content on server, if not then trying with stream_get_contents. If not success then trying with CURL.
+also, you can define parsed images size.
+
